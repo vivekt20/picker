@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:form_in_flutter/customform.dart';
 import 'package:form_in_flutter/datepicker.dart';
+import 'package:form_in_flutter/slider.dart';
+import 'package:form_in_flutter/sliderdelete.dart';
+import 'package:form_in_flutter/switch.dart';
 import 'package:form_in_flutter/timepicker.dart';
 
 void main() {
@@ -15,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DatePickerDemo(),
+      home: SliderDemo(),
     );
   }
 }
